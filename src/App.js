@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import NavigationBar from './components/NavigationBar.js';
+import button from './components/Button.js';
+import TopBar from './components/TopBar.js'
+
+import 'semantic-ui-css/semantic.min.css'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <TopBar></TopBar>
+        <NavigationBar></NavigationBar>
+        <p>Hello World</p>
+        <button class="ui button">Click Here</button>
     </div>
   );
 }
