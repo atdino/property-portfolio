@@ -1,0 +1,19 @@
+.backgroundGray {
+    background: #222222 !important;
+}
+
+.paddingTop {
+    padding-top: 10% !important;
+}
+
+.paddingBottom {
+    padding-bottom: 10% !important;
+}
+
+.biggerFont {
+    font-size: 1.75em;
+}
+
+.whiteText {
+    color: white;
+}

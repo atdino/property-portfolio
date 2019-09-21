@@ -1,15 +1,8 @@
 import React, { Component } from 'react';
-import { Menu } from 'semantic-ui-react';
 import './TextBlock.css';
 
 export default class TextBlock extends Component {
-  state = {}
-
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
-
   render() {
-    const { activeItem } = this.state
-
     return (
       <div className="ui grid paddingTop paddingBottom">
         <div class="ten wide column">
@@ -22,7 +15,6 @@ export default class TextBlock extends Component {
           <p>12345</p>
         </div>
       </div>
-
     )
   }
 }

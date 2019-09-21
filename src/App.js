@@ -6,6 +6,7 @@ import HeaderImage from './components/HeaderImage.js';
 import 'semantic-ui-css/semantic.min.css';
 import { Container } from 'semantic-ui-react';
 import TextBlock from './components/TextBlock';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Container>
         <TextBlock />
       </Container>
+      <Footer />
 
     </div>
   );
