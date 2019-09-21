@@ -1,0 +1,18 @@
+.backgroundImage {
+    background-image: url('../resources/abigail-keenan-l2JpNQF_qDc-unsplash.jpg') !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.whiteText {
+    color: white;
+}
+
+.biggerFont {
+    font-size: 1.75em;
+}
+
+
+.alignJustify {
+    text-align: justify;
+}

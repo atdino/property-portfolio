@@ -6,7 +6,7 @@ export default class Footer extends Component {
         return (
             <div class="ui inverted vertical footer segment">
                 <div class="ui container">
-                    Ajdin Trejic 2019 All Rights Reserved
+                    Ajdin Trejić 2019 All Rights Reserved
                 </div>
             </div>
         )
