@@ -1,0 +1,27 @@
+.paddingTop {
+    padding-top: 10% !important;
+}
+
+.paddingBottom {
+    padding-bottom: 10% !important;
+}
+
+.biggerFont {
+    font-size: 1.75em;
+}
+
+.address {
+    text-align: right !important;
+    text-decoration: underline !important;
+    margin: none !important;
+    font-size: 1.5em;
+    padding-top: 10%;
+}
+
+.address p {
+    margin: 0;
+}
+
+.alignJustify {
+    text-align: justify;
+}

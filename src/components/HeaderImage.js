@@ -3,7 +3,7 @@ import { Menu } from 'semantic-ui-react';
 import './HeaderImage.css';
 
 export default class TopBar extends Component {
-  state = { activeItem: 'home' }
+  state = {}
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
